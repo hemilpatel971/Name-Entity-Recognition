@@ -118,7 +118,7 @@ def loadembeddings(filename):
 vocab,embd = loadembeddings(filename)
 print(vocab[0],embd[0])
 
-
+#change the number 50 if you use different vector dimension file such as 200 or 300.
 data["Word"] = data["Word"].apply(lambda word: np.array(embd[vocab.index(word)]).astype(np.float16) if word in vocab else np.zeros((50)))
 data["Word"].head(10)
 
