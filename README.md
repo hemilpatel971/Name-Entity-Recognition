@@ -5,4 +5,4 @@ Name entity recognition using LSTMs and pre trained word vectors from GLOVE mode
 Download the dataset from this link https://github.com/dice-group/FOX/tree/master/input/Wikiner.
 
 # Pre trained word vectors
-Link to download the Glove model https://nlp.stanford.edu/projects/glove/. There are different models with different vector dimension. I have used the 50 dimension vector for faster performance.
+Link to download the Glove model https://nlp.stanford.edu/projects/glove/. There are different models with different vector dimensions. I have used the 50 dimension vector for faster performance.
